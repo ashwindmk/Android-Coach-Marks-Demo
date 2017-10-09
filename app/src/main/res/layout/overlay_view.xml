@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88666666"
+    android:id="@+id/overlayLayout">
+
+    <!--<ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/overlay" />-->
+
+    <LinearLayout
+        android:id="@+id/button1Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dotted_arrow_up_white"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/overlayTextColor"
+            android:text="Button 1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button2Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dotted_arrow_up_white"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/overlayTextColor"
+            android:text="Button 2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button3Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dotted_arrow_up_white"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/overlayTextColor"
+            android:text="Button 3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/overlayTextColor"
+            android:text="sample text" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dotted_arrow_up_white"
+            android:rotation="180"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
